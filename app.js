@@ -14,6 +14,7 @@
                 $scope.message = "Please enter data first";
                 return;
             }
+            //filter empty items
             var items = $scope.itemsList.split(",").filter(x => x);
             var itemsLength = items.length;
             if(itemsLength <=3 ){
