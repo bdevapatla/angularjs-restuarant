@@ -15,7 +15,7 @@
                 return;
             }
             //filter empty items
-            var items = $scope.itemsList.split(",").filter(x => x);
+            var items = $scope.itemsList.split(",").filter(x => x.trim());
             var itemsLength = items.length;
             if(itemsLength <=3 ){
                 $scope.message = "Enjoy!"
