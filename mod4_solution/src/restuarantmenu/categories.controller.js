@@ -5,8 +5,8 @@
         .controller('CategoriesController', CategoriesController);
 
 
-    CategoriesController.$inject = ['MenuDataService','items'];
-    function CategoriesController(MenuDataService,items) {
+    CategoriesController.$inject = ['items'];
+    function CategoriesController(items) {
         var mainlist = this;
         mainlist.items = items;
     }
