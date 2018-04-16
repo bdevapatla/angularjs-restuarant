@@ -28,7 +28,7 @@ function SignupService() {
   };
 
   service.getUserInfo = function () {
-    return users.length === 0 ? new Object():users[0];
+    return users.length === 0 ? new Object():users[users.length-1];//Always get the latest registratin info per session
   };
 }
 }
