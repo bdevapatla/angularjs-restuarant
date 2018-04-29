@@ -1,5 +1,3 @@
 # Restaurant
 
-Module-5 assignment submission
-
-Restaurant front-end implementation in AngularJS for David Chu's China Bistro.
+Course 4 and 5 assignments of web development specialization from JHU
